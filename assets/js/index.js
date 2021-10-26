@@ -13,7 +13,7 @@ fetch('https://anime-facts-rest-api.herokuapp.com/api/v1/demon_slayer')
     animeFacts.innerHTML = `
       <figure>
        <img src="${data.url}" alt="Random Anime Fact">
-       <figcaption>${data.fileSizeBytes} bytes of data.</figcaption>
+       <figcaption>${data.fact_id} bytes of data.</figcaption>
       </figure>
     `;
     console.log(data);
