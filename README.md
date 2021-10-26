@@ -5,7 +5,6 @@
 
 - [GH Pages Site]()
 
-
 ## Attributions
 
 ### API
@@ -15,3 +14,5 @@
 - [API Link](https://anime-facts-rest-api.herokuapp.com/api/v1/demon_slayer)
 
 ### Fonts
+
+- [Karla Font]() Designed by Johnny Pinhorn
