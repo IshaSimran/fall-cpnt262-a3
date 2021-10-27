@@ -1,10 +1,18 @@
-.facts {
-  text-align: center;
-  font-family: "Karla", sans-serif;
-  font-size: 1rem;
+body {
+  background-color: peachpuff;
 }
 
 .different-anime {
   margin: auto;
-  color: orangered;
+  color: peachpuff;
+  background-color: orangered;
+
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+  font-family: "Karla", sans-serif;
+  font-weight: 1000;
+  font-size: 3rem;
 }
