@@ -1,11 +1,9 @@
 # Fall-CPNT262-A3 : Fetching API Data
 ## By Isha Simran
 
-I just want to clarify that this assignment broke me more than I broke it. And the fact that I got an image to load is good enough for me.
-
 - [GitHub Repo](https://github.com/IshaSimran/fall-cpnt262-a3)
 
-- [GH Pages Site]()
+- [GH Pages Site](https://ishasimran.github.io/fall-cpnt262-a3/)
 
 ## Attributions
 
