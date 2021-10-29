@@ -9,18 +9,18 @@ const display = document.querySelector('.display');
 
 // Button Added
 button.addEventListener('click', async () => {
-  let randomImage = await getNewImage();
-  display.src = randomImage;
+  let image = await getNewImage();
+  display.src = image;
 });
 
 // Fetch Sequence
 async function getNewImage() {
-  let randomNumber = Math.floor(Math.random() * 10);
+  let number = Math.floor(Math.random() * 10);
   return fetch(url)
     .then((response) => response.json())
     .then((data) => {
-      let allImages = data.results[randomNumber];
-      return allImages.urls.regular;
+      let all = data.results[number];
+      return all.urls.regular;
     })
     .catch(function (err) {
       // An error or `reject` from any of the above `.then()` blocks will end up here.
