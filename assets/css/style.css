@@ -1,5 +1,5 @@
 /***** Body *****/
-main{
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,11 +17,14 @@ main{
 }
 
 /***** Button Styling *****/
-.button{
+.button {
   font-family: 'Karla';
   font-size: 2rem;
+  font-weight: 1000;
 
   background-color: lightgreen;
   border: 3px solid black;
   box-shadow: 5px 10px lightslategray;
+
+  cursor: pointer;
 }
